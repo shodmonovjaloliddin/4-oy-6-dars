@@ -6,6 +6,13 @@
   background: #3B3B3B;
 }
 
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -36,12 +43,13 @@ a {
   border: none;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.5s, transform 0.4s;
+  transition: background-color 0.3s, transform 0.7s;
 }
 
 .ranks button[type=submit]:hover {
-  background-color: orangered;
+  background-color: #3B3B3B;
   color: white;
+  border: 2px solid #A259FF;
 }
 
 .ranks button[type=submit]:active {
@@ -50,8 +58,8 @@ a {
 
 .big-ice {
   display: flex;
-  gap: 50px;
-  padding-left: 65px;
+  gap: 30px;
+  padding-left: 35px;
   margin-top: 30px;
 }
 
@@ -71,4 +79,202 @@ a {
 .shroon p {
   color: white;
   font-size: 16px;
+}
+
+.cosmo {
+  margin-top: 30px;
+}
+
+.anim {
+  display: flex;
+  padding-left: 60px;
+  padding-right: 115px;
+  gap: 450px;
+}
+
+.anim h1 {
+  font-size: 51px;
+  color: white;
+}
+
+.dert :nth-child(1) {
+  width: 186px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  background: #A259FF;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.4s;
+}
+
+.dert :nth-child(1)[type=submit]:hover {
+  background-color: #3B3B3B;
+  color: white;
+  border: 2px solid #A259FF;
+}
+
+.dert :nth-child(1)[type=submit]:active {
+  transform: scale(0.95);
+}
+
+.dert :nth-child(2) {
+  width: 145px;
+  height: 60px;
+  padding: 0px 30px 0px 30px;
+  gap: 12px;
+  border-radius: 20px;
+  border: 2px solid #A259FF;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.4s, transform 0.2s;
+}
+
+.dert :nth-child(2)[type=submit]:hover {
+  background-color: #A259FF;
+  color: white;
+  border: none;
+}
+
+.dert :nth-child(2)[type=submit]:active {
+  transform: scale(0.95);
+}
+
+.dert {
+  display: flex;
+  gap: 20px;
+}
+
+.imag {
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+.imag img {
+  margin-top: 30px;
+}
+
+.creted {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.owned1 {
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.owned {
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  font-size: 22px;
+  color: gray;
+}
+
+.center-section {
+  margin-top: 90px;
+}
+
+.footer-section {
+  margin-top: 120px;
+  display: flex;
+  gap: 140px;
+  padding-left: 30px;
+}
+
+.relory :nth-child(2) {
+  margin-top: 20px;
+  max-width: 230px;
+  font-size: 16px;
+  color: #CCCCCC;
+}
+
+.relory :nth-child(3) {
+  margin-top: 20px;
+  color: #CCCCCC;
+  font-size: 16px;
+}
+
+.relory :nth-child(4) {
+  margin-top: 10px;
+}
+
+.relory2 :nth-child(1) {
+  color: white;
+  font-size: 22px;
+}
+
+.relory2 p {
+  margin-top: 15px;
+  color: #CCCCCC;
+  font-size: 16px;
+}
+
+.relory3 h3 {
+  color: white;
+  font-size: 22px;
+}
+
+.relory3 p {
+  margin-top: 20px;
+  color: #CCCCCC;
+  max-width: 300px;
+}
+
+.footer-input {
+  width: 420px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-input button {
+  width: 179px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: #A259FF;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.4s;
+}
+
+.footer-input button[type=submit]:hover {
+  background-color: red;
+  color: white;
+}
+
+.footer-input button[type=submit]:active {
+  transform: scale(0.95);
+}
+
+.footer-input input {
+  background-color: #fff;
+  border: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+@media (max-width: 834px) {
+  .center-section {
+    max-width: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
